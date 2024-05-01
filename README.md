@@ -10,6 +10,15 @@ MAUI COURSE
         Clicked="OnCounterClicked"
         HorizontalOptions="Center" />
 ```
+## Carpetas
+
+- La carpeta **Resources** contiene fuentes compartidas, imágenes y activos usados por todas las plataformas.
+
+- **Platforms**
+
+- **Properties**
+
+- **Dependencies**
 
 ## Estructura del proyecto .NET MAUI e inicio de aplicaciones
 
@@ -32,4 +41,6 @@ También puede definir más páginas XAML si tiene una aplicación de varias pá
 - **MauiProgram.cs.** Cada plataforma nativa tiene un punto de partida diferente que crea e inicializa la aplicación. Encontrará este código en la carpeta Plataformas del proyecto. Este código es específico de la plataforma, pero al final llama al método CreateMauiApp de la clase estática MauiProgram. 
 
 - **Plataformas.** Esta carpeta contiene recursos y archivos de código de inicialización específicos de la plataforma. Hay carpetas para Android, iOS, MacCatalyst, Tizen y Windows.
-Cuando se completa la inicialización, el código específico de la plataforma llama al método MauiProgram.CreateMauiApp que crea y ejecuta el objeto App
+Cuando se completa la inicialización, el código específico de la plataforma llama al método MauiProgram.CreateMauiApp que crea y ejecuta el objeto App.
+
+- El archivo **.csproj** para el proyecto principal incluye varias secciones destacadas. El PropertyGroup inicial especifica los marcos de plataforma a los que se dirige el proyecto, así como los elementos como el título de la aplicación, el identificador, la versión, la versión de visualización y los sistemas operativos compatibles.
