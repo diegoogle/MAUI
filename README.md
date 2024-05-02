@@ -44,3 +44,6 @@ También puede definir más páginas XAML si tiene una aplicación de varias pá
 Cuando se completa la inicialización, el código específico de la plataforma llama al método MauiProgram.CreateMauiApp que crea y ejecuta el objeto App.
 
 - El archivo **.csproj** para el proyecto principal incluye varias secciones destacadas. El PropertyGroup inicial especifica los marcos de plataforma a los que se dirige el proyecto, así como los elementos como el título de la aplicación, el identificador, la versión, la versión de visualización y los sistemas operativos compatibles.
+
+## Tipos de Layout
+![](/img/5-layout-types.png)
